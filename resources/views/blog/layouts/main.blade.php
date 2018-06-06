@@ -8,21 +8,21 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="{{ secure_asset('page/img/favicon.png') }}" rel="icon">
-  <link href="{{ secure_asset('page/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+  <link href="{{ asset('page/img/favicon.png') }}" rel="icon">
+  <link href="{{ asset('page/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="{{ secure_asset('page/lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('page/lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="{{ secure_asset('page/lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
-  <link href="{{ secure_asset('page/lib/animate/animate.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('page/lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('page/lib/animate/animate.min.css') }}" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="{{ secure_asset('page/css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('page/css/style.css') }}" rel="stylesheet">
   @yield('styles')
 
   <!-- =======================================================
@@ -42,7 +42,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="{{ secure_asset('page/img/LOGO.png') }}" alt="" title="" /></img></a>
+        <a href="#hero"><img src="{{ asset('page/img/LOGO.png') }}" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
@@ -104,23 +104,23 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
-  <script src="{{ secure_asset('page/lib/jquery/jquery.min.js') }}"></script>
-  <script src="{{ secure_asset('page/lib/jquery/jquery-migrate.min.js') }}"></script>
-  <script src="{{ secure_asset('page/lib/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-  <script src="{{ secure_asset('page/lib/easing/easing.min.js') }}"></script>
-  <script src="{{ secure_asset('page/lib/wow/wow.min.js') }}"></script>
+  <script src="{{ asset('page/lib/jquery/jquery.min.js') }}"></script>
+  <script src="{{ asset('page/lib/jquery/jquery-migrate.min.js') }}"></script>
+  <script src="{{ asset('page/lib/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('page/lib/easing/easing.min.js') }}"></script>
+  <script src="{{ asset('page/lib/wow/wow.min.js') }}"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
 
-  <script src="{{ secure_asset('page/lib/waypoints/waypoints.min.js') }}"></script>
-  <script src="{{ secure_asset('page/lib/counterup/counterup.min.js') }}"></script>
-  <script src="{{ secure_asset('page/lib/superfish/hoverIntent.js') }}"></script>
-  <script src="{{ secure_asset('page/lib/superfish/superfish.min.js') }}"></script>
+  <script src="{{ asset('page/lib/waypoints/waypoints.min.js') }}"></script>
+  <script src="{{ asset('page/lib/counterup/counterup.min.js') }}"></script>
+  <script src="{{ asset('page/lib/superfish/hoverIntent.js') }}"></script>
+  <script src="{{ asset('page/lib/superfish/superfish.min.js') }}"></script>
 
   <!-- Contact Form JavaScript File -->
-  <script src="{{ secure_asset('page/contactform/contactform.js') }}"></script>
+  <script src="{{ asset('page/contactform/contactform.js') }}"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="{{ secure_asset('page/js/main.js') }}"></script>
+  <script src="{{ asset('page/js/main.js') }}"></script>
   @yield('scripts')
 
 </body>
