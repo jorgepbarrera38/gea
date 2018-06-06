@@ -14,7 +14,7 @@ use App\Message;
 */
 
 Route::get('/', function () {
-    return view('page.index');
+    return view('blog.index');
 });
 
 Route::post('messages', function(Request $request){
