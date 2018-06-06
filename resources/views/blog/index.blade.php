@@ -1,4 +1,4 @@
-@extends('page.layouts.main')
+@extends('blog.layouts.main')
 
 @section('styles')
   <link rel="stylesheet" href="{{ asset('vendor/toastr/css/toastr.min.css') }}">
