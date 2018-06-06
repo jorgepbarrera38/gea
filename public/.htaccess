@@ -19,3 +19,8 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+<VirtualHost *:80>
+   ServerName rotarota.net
+   ServerAlias www.rotarota.net
+   Redirect permanent / https://rotarota.net/
+</VirtualHost>
