@@ -1,12 +1,12 @@
 @extends('blog.layouts.main')
 
 @section('styles')
-  <link rel="stylesheet" href="{{ asset('vendor/toastr/css/toastr.min.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('vendor/toastr/css/toastr.min.css') }}">
 @endsection
 
 @section('scripts')
 
-  <script src="{{ asset('vendor/toastr/js/toastr.min.js') }}"></script>
+  <script src="{{ secure_asset('vendor/toastr/js/toastr.min.js') }}"></script>
 
   @if(session('info'))
       <script>
