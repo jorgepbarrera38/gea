@@ -149,7 +149,7 @@
           <div class="col-lg-5 col-md-8">
             <div class="form">
               
-              <form action="{{ route('messages.store') }}" method="post">
+              <form action="https://geasoluciones.herokuapp.com/messages" method="post">
                 @csrf
                 <div class="form-group">
                   <input type="text" name="name" value="{{ old('name') }}" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Ingresa tu nombre" />
