@@ -111,7 +111,7 @@
     <section id="contact">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h3 class="section-title">Contactenos</h3>
+          <h3 class="section-title">Contacto</h3>
           <p class="section-description">Contáctame por medio de las redes sociales o dejando un mensaje en el siguiente formulario</p>
         </div>
       </div>
